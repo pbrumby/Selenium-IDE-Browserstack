@@ -1,0 +1,10 @@
+# this is how your device.yaml file should look like. 
+capabilities:
+    browserName: "Android"
+    os: "Google Pixel 5"
+    os_version: '11.0'
+    name: 'Selenium IDE automate test'
+    browserstack.debug: true
+    browserstack.console: "verbose"
+    browserstack.networkLogs: true
+server: "https://username:access-key@hub-cloud.browserstack.com/wd/hub"
